@@ -1,4 +1,4 @@
-package hu.elte.projeszk.kolicalc;
+package hu.elte.koliCalc;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class KolicalcApplicationTests {
+public class KoliCalcApplicationTests {
 
 	@Test
 	public void contextLoads() {
