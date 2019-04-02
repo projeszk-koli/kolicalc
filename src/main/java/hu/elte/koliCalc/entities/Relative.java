@@ -35,10 +35,10 @@ public class Relative implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     
-    @Column(name = "státusz")
+    @Column(name = "statusz")
     private String status;
 
-    @Column(name = "jövedelem")
+    @Column(name = "jovedelem")
     private Integer income;
     
     @OneToOne

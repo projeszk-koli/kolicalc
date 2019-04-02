@@ -33,13 +33,13 @@ public class StudyInformation implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "legjobb_tanulmányi")
+    @Column(name = "legjobb_tanulmanyi")
     private double bestStudyResult;
 
     @Column(name = "tagozat")
     private String schoolClass;
 
-    @Column(name = "finanszírozási_forma")
+    @Column(name = "finanszirozasi_forma")
     private String financingForm;
     
     @OneToOne

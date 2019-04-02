@@ -33,13 +33,13 @@ public class PersonalInformation implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     
-    @Column(name = "státusz")
+    @Column(name = "statusz")
     private String status;
 
-    @Column(name = "lakosok száma")
+    @Column(name = "lakosok_szama")
     private Integer residentNum;
     
-    @Column(name = "távolság")
+    @Column(name = "tavolsag")
     private Integer distance;
     
     @OneToOne

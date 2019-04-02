@@ -5,6 +5,7 @@
  */
 package hu.elte.koliCalc.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,6 +14,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
+import javax.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -23,6 +25,7 @@ import lombok.NoArgsConstructor;
  * @author Dorka
  */
 @Entity
+@Table(name="sport")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -33,16 +36,14 @@ public class SportInformation implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "kiemelkedő_sport")
     private String outstandingSportsAchievement;
 
-    @Column(name = "kiemelkedő_tanulmány")
     private String outstandingStudyResult;
 
-    @Column(name = "kiemelkedő_közösségi")
     private String outstandingCommunityActivity;
     
     @OneToOne
     @JoinColumn
+    @JsonIgnore
     private User user;
 }

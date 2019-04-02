@@ -5,8 +5,11 @@
  */
 package hu.elte.koliCalc.controllers;
 
+import hu.elte.koliCalc.entities.FamilyInformation;
 import hu.elte.koliCalc.repositories.FamilyInformationRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,4 +23,14 @@ public class FamilyInformationController {
 
     @Autowired
     private FamilyInformationRepo familyInfoRepo;
+    
+    /**
+     * Visszaadja az összes family infót az adatbázisból.
+     * @return 
+     */
+    @GetMapping("")
+    public ResponseEntity<Iterable<FamilyInformation>> getAllFamilyInfo(){
+        return ResponseEntity.ok(familyInfoRepo.findAll());
+    }
+    
 }

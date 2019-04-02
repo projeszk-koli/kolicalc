@@ -5,8 +5,11 @@
  */
 package hu.elte.koliCalc.controllers;
 
+import hu.elte.koliCalc.entities.PersonalInformation;
 import hu.elte.koliCalc.repositories.PersonalInformationRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,4 +23,14 @@ public class PersonalInformationController {
 
     @Autowired
     private PersonalInformationRepo personalInfoRepo;
+    
+    /**
+     * Visszaadja az összes personal infót az adatbázisból.
+     * @return 
+     */
+    @GetMapping("")
+    public ResponseEntity<Iterable<PersonalInformation>> getAllPersonalInfo(){
+        return ResponseEntity.ok(personalInfoRepo.findAll());
+    }
+    
 }
