@@ -1,5 +1,6 @@
 package hu.elte.koliCalc;
 
+import junit.framework.TestSuite;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
