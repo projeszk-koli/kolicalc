@@ -17,6 +17,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class KoliCalcApplicationTests {
     
 //Nem tudom kell-e ez még ide
+// Tesztelem a travis email kuldest
 /*
 	@Test
 	public void contextLoads() {
