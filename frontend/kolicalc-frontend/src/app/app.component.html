@@ -1,0 +1,110 @@
+<h1>Kollégiumi pontszámító kalkulátor</h1>
+
+<form>
+  <div id="statusz">
+    <p class="valasztando"> A pályázó lehetséges státuszai: </p>
+    <select id="valaszto">
+      <option>Félárva</option>
+      <option>Teljesen árva vagy államilag gondozott</option>
+      <option>Látássérült, hallássérült vagy mozgáskorlátozott</option>
+      <option>Tartós beteg</option>
+      <option>Tanulási zavarral küzd</option>
+    </select>
+  </div>
+
+  <div id="egy haztartas">
+    <p class="valasztando"> A pályázóval egy háztartásban élők lehetséges száma: </p>
+    <input type="number" min="0" max="10">
+  </div>
+
+  <div id="km">
+    <p class="valasztando"> Állandó lakóhelynek Budapesttől való távolságáért járó pontok (km-ben megadva): </p>
+    <input type="number" min="0" max="10000">
+  </div>
+
+  <div id="szulo statusz1">
+    <p class="valasztando"> Az első szülő/nevelő lehetséges státuszai: </p>
+    <select id="valaszto1">
+      <option>Munkanélküli, juttatás nélküli</option>
+      <option>Munkanélküli, aki aktív korúak ellátásban vagy foglalkoztatást helyettesítő támogatásban részesül</option>
+      <option>Munkanélküli, aki álláskeresési járadékban részesül</option>
+      <option>Munkanélküli, aki rehabilitációs ellátásban részesül</option>
+      <option>Háztartásbeli, aki ápolási ellátásban részesül</option>
+      <option>Háztartásbeli</option>
+      <option>Gyermekét egyedül neveli, mert a másik fél kiléte nem ismert</option>
+      <option>Gyermekét egyedül neveli, mert özvegy</option>
+      <option>Gyermekét egyedül neveli, mert elvált</option>
+      <option>Gyermekét egyedül neveli, mert nőtlen/hajadon</option>
+      <option>Gyermekét egyedül neveli, mert külön él házastársától, de nem vált el</option>
+      <option>Öregségi ill. rokkant ellátásban (nyugdíjban) részesül</option>
+      <option>Alkalmazott</option>
+      <option>Vállalkozó vagy őstermelő</option>
+    </select>
+  </div>
+
+  <div id="netto jovedelem1">
+    <p class="valasztando"> Az első szülő/nevelő nettó jövedelme: </p>
+    <input type="number" min="0" max="100000000">
+  </div>
+
+  <div id="szulo statusz2">
+    <p class="valasztando"> A második szülő/nevelő lehetséges státuszai: </p>
+    <select id="valaszto2">
+      <option>Munkanélküli, juttatás nélküli</option>
+      <option>Munkanélküli, aki aktív korúak ellátásban vagy foglalkoztatást helyettesítő támogatásban részesül</option>
+      <option>Munkanélküli, aki álláskeresési járadékban részesül</option>
+      <option>Munkanélküli, aki rehabilitációs ellátásban részesül</option>
+      <option>Háztartásbeli, aki ápolási ellátásban részesül</option>
+      <option>Háztartásbeli</option>
+      <option>Gyermekét egyedül neveli, mert a másik fél kiléte nem ismert</option>
+      <option>Gyermekét egyedül neveli, mert özvegy</option>
+      <option>Gyermekét egyedül neveli, mert elvált</option>
+      <option>Gyermekét egyedül neveli, mert nőtlen/hajadon</option>
+      <option>Gyermekét egyedül neveli, mert külön él házastársától, de nem vált el</option>
+      <option>Öregségi ill. rokkant ellátásban (nyugdíjban) részesül</option>
+      <option>Alkalmazott</option>
+      <option>Vállalkozó vagy őstermelő</option>
+    </select>
+  </div>
+
+  <div id="netto jovedelem2">
+    <p class="valasztando"> A második szülő/nevelő nettó jövedelme: </p>
+    <input type="number" min="0" max="100000000">
+  </div>
+
+  <div id="testverek" *ngFor="let num of testverek; index as i">
+    <div id="testver statusz">
+      <p class="valasztando"> Az {{i+1}}. testvér lehetséges státuszai: </p>
+      <select id="valaszto teso">
+        <option>16 év alatti</option>
+        <option>16 év feletti tanuló</option>
+        <option>Nappali tagozatos aktív hallgatói jogviszonnyal rendelkező hallgató</option>
+        <option>Nappali tagozatos passzív hallgatói jogviszonnyal rendelkező hallgató</option>
+        <option>Esti vagy levelező tagozatos aktív vagy passzív hallgatói jogviszonnyal rendelkező hallagtó</option>
+        <option>Munkanélküli, juttatás nélküli</option>
+        <option>Munkanélküli, aki aktív korúak ellátásban vagy foglalkoztatást helyettesítő támogatásban részesül
+        </option>
+        <option>Munkanélküli, aki álláskeresési járadékban részesül</option>
+        <option>Munkanélküli, aki rehabilitációs ellátásban részesül</option>
+        <option>Háztartásbeli, aki ápolási ellátásban részesül</option>
+        <option>Háztartásbeli</option>
+        <option>Gyermekét egyedül neveli, mert a másik fél kiléte nem ismert</option>
+        <option>Gyermekét egyedül neveli, mert özvegy</option>
+        <option>Gyermekét egyedül neveli, mert elvált</option>
+        <option>Gyermekét egyedül neveli, mert nőtlen/hajadon</option>
+        <option>Gyermekét egyedül neveli, mert külön él házastársától, de nem vált el</option>
+        <option>Öregségi ill. rokkant ellátásban (nyugdíjban) részesül</option>
+        <option>Alkalmazott</option>
+        <option>Vállalkozó vagy őstermelő</option>
+      </select>
+
+      <div id="netto jovedelem3">
+        <p class="valasztando"> A {{i+1}}. testvér nettó jövedelme: </p>
+        <input type="number" min="0" max="100000000">
+      </div>
+    </div>
+
+  </div>
+  <input type="button" class="button" value="Testvér hozzáadása" (click)="testverHozzaadas()">
+
+</form>

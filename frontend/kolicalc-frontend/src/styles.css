@@ -1,0 +1,17 @@
+h1{
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+form{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+#button{
+    margin: 10px;
+}
