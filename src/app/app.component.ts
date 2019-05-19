@@ -19,7 +19,7 @@ export class AppComponent {
   egyForeJovedelem = 0;
   munkanelkuliTestver = 0;
   sajatGyermek = 0;
-  szuloktolKulon = 0;
+  szuloktolKulon: boolean;
 
   distances = [
     {value: 0, text: ''},
@@ -80,7 +80,8 @@ export class AppComponent {
       this.lakhely +
       this.tanulmanyiAtlag +
       this.felveteliPont +
-      this.egyForeJovedelem;
+      this.egyForeJovedelem +
+      (this.szuloktolKulon ? 2 : 0);
   }
 
 }
