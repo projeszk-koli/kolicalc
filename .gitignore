@@ -2,6 +2,9 @@ HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
+###
+/bin
+
 ### Build files ###
 .mvn
 mnvw
