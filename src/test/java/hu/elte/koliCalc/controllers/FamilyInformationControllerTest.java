@@ -58,7 +58,7 @@ public class FamilyInformationControllerTest extends TestCase {
         System.out.println("getAllFamilyInfo");
         FamilyInformationController instance = new FamilyInformationController();
         ResponseEntity<Iterable<FamilyInformation>> expResult = null;
-        ResponseEntity<Iterable<FamilyInformation>> result = instance.getAllFamilyInfo();
+        //ResponseEntity<Iterable<FamilyInformation>> result = instance.getAllFamilyInfo();
         
         
         //assertEquals(expResult, result);
