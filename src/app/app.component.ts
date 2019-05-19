@@ -20,6 +20,12 @@ export class AppComponent {
   munkanelkuliTestver = 0;
   sajatGyermek = 0;
   szuloktolKulon: boolean;
+  szuloktolKulonHazas: boolean;
+  arva: boolean;
+  felarva: boolean;
+  felarvaNevSzul: boolean;
+  munkanelkuliEltarto: boolean;
+  kozfoglEltarto: boolean;
 
   distances = [
     {value: 0, text: ''},
@@ -70,7 +76,13 @@ export class AppComponent {
       egyForeJovedelem: new FormControl('', Validators.required),
       munkanelkuliTestver: new FormControl('', Validators.required),
       sajatGyermek: new FormControl('', Validators.required),
-      szuloktolKulon: new FormControl('', Validators.required)
+      szuloktolKulon: new FormControl('', Validators.required),
+      szuloktolKulonHazas: new FormControl('', Validators.required),
+      arva: new FormControl('', Validators.required),
+      felarva: new FormControl('', Validators.required),
+      felarvaNevSzul: new FormControl('', Validators.required),
+      munkanelkuliEltarto: new FormControl('', Validators.required),
+      kozfoglEltarto: new FormControl('', Validators.required)
     });
   }
 
@@ -81,7 +93,13 @@ export class AppComponent {
       this.tanulmanyiAtlag +
       this.felveteliPont +
       this.egyForeJovedelem +
-      (this.szuloktolKulon ? 2 : 0);
+      (this.szuloktolKulon ? 2 : 0) +
+      (this.szuloktolKulonHazas ? 6 : 0) +
+      (this.arva ? 10 : 0) +
+      (this.felarva ? 7 : 0) +
+      (this.felarvaNevSzul ? 4 : 0) +
+      (this.munkanelkuliEltarto ? 4 : 0) +
+      (this.kozfoglEltarto ? 2 : 0);
   }
 
 }
