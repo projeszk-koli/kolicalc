@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: hu.elte.koliCalc.controllers.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in hu.elte.koliCalc.controllers.UserControllerTest
+testPutSport(hu.elte.koliCalc.controllers.UserControllerTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.elte.koliCalc.controllers.UserControllerTest.testPutSport(UserControllerTest.java:98)
+
+testDeleteSport(hu.elte.koliCalc.controllers.UserControllerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.elte.koliCalc.controllers.UserControllerTest.testDeleteSport(UserControllerTest.java:144)
+
+testPostSport(hu.elte.koliCalc.controllers.UserControllerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.elte.koliCalc.controllers.UserControllerTest.testPostSport(UserControllerTest.java:114)
+
+testGetSport(hu.elte.koliCalc.controllers.UserControllerTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.elte.koliCalc.controllers.UserControllerTest.testGetSport(UserControllerTest.java:82)
+
+testGetId(hu.elte.koliCalc.controllers.UserControllerTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.elte.koliCalc.controllers.UserControllerTest.testGetId(UserControllerTest.java:67)
+
+testGetAllUser(hu.elte.koliCalc.controllers.UserControllerTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.elte.koliCalc.controllers.UserControllerTest.testGetAllUser(UserControllerTest.java:52)
+
+testDelete(hu.elte.koliCalc.controllers.UserControllerTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.elte.koliCalc.controllers.UserControllerTest.testDelete(UserControllerTest.java:129)
+

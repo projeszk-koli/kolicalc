@@ -1,0 +1,63 @@
+<h1>Welcome to kolicalc-frontend!</h1>
+
+<form [formGroup]="formGroup">
+  <div>
+    <p class="valasztando"> Állandó lakóhely távolsága Budapesttől (km-ben megadva): </p>
+    <select [(ngModel)]="lakhely" formControlName="lakhely">
+      <option *ngFor="let distance of distances" [ngValue]="distance.value">
+        {{distance.text}}
+      </option>
+    </select>
+  </div>
+
+  <div>
+    <p class="valasztando"> Tanulmányi átlag: </p>
+    <select [(ngModel)]="tanulmanyiAtlag" formControlName="tanulmanyiAtlag">
+      <option *ngFor="let atlag of atlagok" [ngValue]="atlag.value">
+        {{atlag.text}}
+      </option>
+    </select>
+  </div>
+    
+  <div>
+    <p class="valasztando"> Felvételi pont alapképzés estén: </p>
+    <select [(ngModel)]="felveteliPont" formControlName="felveteliPont">
+      <option *ngFor="let pont of felveteliPontok" [ngValue]="pont.value">
+        {{pont.text}}
+      </option>
+    </select>
+  </div>
+
+  <div>
+    <p class="valasztando"> Egy főre jutó jövedelem: </p>
+    <select [(ngModel)]="egyForeJovedelem" formControlName="egyForeJovedelem">
+      <option *ngFor="let jovedelem of jovedelemLista" [ngValue]="jovedelem.value">
+        {{jovedelem.text}}
+      </option>
+    </select>
+  </div>
+ 
+  <div>
+    <h3>Szociális pontok:</h3>
+    <p>Munkanélküli testvérek száma:</p>
+    <p><input type="number" id="munkanelkuliTestver" [(ngModel)]="munkanelkuliTestver" formControlName="munkanelkuliTestver"></p>
+  </div>
+
+  <div>
+    <p>Kérvényező saját gyermekeinek száma:</p>
+    <p><input type="number" id="sajatGyermek" [(ngModel)]="sajatGyermek" formControlName="sajatGyermek"></p>
+  </div>
+
+  <div>
+    <p><input type="checkbox" id="szuloktolKulon" [(ngModel)]="szuloktolKulon" formControlName="szuloktolKulon"> kérvényező szülőktől külön háztartásban</p>
+  </div>
+
+  
+
+
+
+  <br>
+  <button [disabled]="!formGroup.valid" (click)="save()">Pontszámítás!</button>
+
+  <p>Hallgató pontszáma: {{pont}}</p>
+</form>

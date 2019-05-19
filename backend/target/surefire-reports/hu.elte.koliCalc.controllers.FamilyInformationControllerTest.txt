@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: hu.elte.koliCalc.controllers.FamilyInformationControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in hu.elte.koliCalc.controllers.FamilyInformationControllerTest
+testGetAllFamilyInfo(hu.elte.koliCalc.controllers.FamilyInformationControllerTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.elte.koliCalc.controllers.FamilyInformationControllerTest.testGetAllFamilyInfo(FamilyInformationControllerTest.java:61)
+

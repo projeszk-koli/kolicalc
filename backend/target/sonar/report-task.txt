@@ -1,0 +1,7 @@
+organization=projeszk-koli-github
+projectKey=projeszk-koli_kolicalc
+serverUrl=https://sonarcloud.io
+serverVersion=7.8.0.23906
+dashboardUrl=https://sonarcloud.io/dashboard?id=projeszk-koli_kolicalc
+ceTaskId=AWpeQjML86GwVg75myRU
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWpeQjML86GwVg75myRU

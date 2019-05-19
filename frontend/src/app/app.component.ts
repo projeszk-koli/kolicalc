@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import {Validators, FormControl, FormBuilder} from '@angular/forms';
 import {FormGroup} from '@angular/forms';
+import {FormsModule} from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-root',

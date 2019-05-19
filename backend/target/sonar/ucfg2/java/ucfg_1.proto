@@ -1,0 +1,28 @@
+
+thu.elte.koliCalc.controllers.FamilyInformationController#getAllFamilyInfo()Lorg/springframework/http/ResponseEntity;
+__unknown_file ("1*ì	
+1}
+s/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/FamilyInformationController.java! !(•
+’
+}
+s/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/FamilyInformationController.java!! !(/9
+%03hu.elte.koliCalc.repositories.FamilyInformationRepo"__id*P*N:
+8hu.elte.koliCalc.controllers.FamilyInformationController"
+familyInfoRepo¶³
+}
+s/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/FamilyInformationController.java!! !(9
+%1java.lang.Iterable"Porg.springframework.data.repository.CrudRepository#findAll()Ljava/lang/Iterable;*;
+9
+%03hu.elte.koliCalc.repositories.FamilyInformationRepo2	findAll()ã
+à
+}
+s/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/FamilyInformationController.java! !(:-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*+")
+'org.springframework.http.ResponseEntity*
+
+%1java.lang.Iterable"°
+}
+s/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/FamilyInformationController.java! !(;/
+-
+%2'org.springframework.http.ResponseEntityB<:
+8hu.elte.koliCalc.controllers.FamilyInformationController

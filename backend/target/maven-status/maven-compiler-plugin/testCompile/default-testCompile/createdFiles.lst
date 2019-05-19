@@ -1,0 +1,7 @@
+hu/elte/koliCalc/KoliCalcApplicationTests.class
+hu/elte/koliCalc/controllers/SportInformationControllerTest.class
+hu/elte/koliCalc/controllers/FamilyInformationControllerTest.class
+hu/elte/koliCalc/controllers/StudyInformationControllerTest.class
+hu/elte/koliCalc/controllers/UserControllerTest.class
+hu/elte/koliCalc/controllers/PersonalInformationControllerTest.class
+hu/elte/koliCalc/controllers/RelativeControllerTest.class

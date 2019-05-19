@@ -1,0 +1,28 @@
+
+rhu.elte.koliCalc.controllers.SportInformationController#getAllSportInfo()Lorg/springframework/http/ResponseEntity;
+__unknown_file ("1*ã	
+1|
+r/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/SportInformationController.java! !(‘
+Ž
+|
+r/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/SportInformationController.java!! !(.8
+%02hu.elte.koliCalc.repositories.SportInformationRepo"__id*N*L9
+7hu.elte.koliCalc.controllers.SportInformationController"
+sportInfoRepo´±
+|
+r/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/SportInformationController.java!! !(8
+%1java.lang.Iterable"Porg.springframework.data.repository.CrudRepository#findAll()Ljava/lang/Iterable;*:
+8
+%02hu.elte.koliCalc.repositories.SportInformationRepo2	findAll()â
+ß
+|
+r/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/SportInformationController.java! !(9-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*+")
+'org.springframework.http.ResponseEntity*
+
+%1java.lang.Iterable"¯
+|
+r/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/SportInformationController.java! !(:/
+-
+%2'org.springframework.http.ResponseEntityB;9
+7hu.elte.koliCalc.controllers.SportInformationController

@@ -1,0 +1,28 @@
+
+xhu.elte.koliCalc.controllers.PersonalInformationController#getAllPersonalInfo()Lorg/springframework/http/ResponseEntity;
+__unknown_file ("1*˛	
+1
+u/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/PersonalInformationController.java! !(ù
+ö
+
+u/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/PersonalInformationController.java!! !(1;
+%05hu.elte.koliCalc.repositories.PersonalInformationRepo"__id*T*R<
+:hu.elte.koliCalc.controllers.PersonalInformationController"
+personalInfoRepo∫∑
+
+u/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/PersonalInformationController.java!! !(;
+%1java.lang.Iterable"Porg.springframework.data.repository.CrudRepository#findAll()Ljava/lang/Iterable;*=
+;
+%05hu.elte.koliCalc.repositories.PersonalInformationRepo2	findAll()Â
+‚
+
+u/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/PersonalInformationController.java! !(<-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*+")
+'org.springframework.http.ResponseEntity*
+
+%1java.lang.Iterable"≤
+
+u/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/PersonalInformationController.java! !(=/
+-
+%2'org.springframework.http.ResponseEntityB><
+:hu.elte.koliCalc.controllers.PersonalInformationController

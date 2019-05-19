@@ -1,0 +1,28 @@
+
+ihu.elte.koliCalc.controllers.RelativeController#getAllRelative()Lorg/springframework/http/ResponseEntity;
+__unknown_file ("1*¢	
+1t
+j/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/RelativeController.java! !(ø
+õ
+t
+j/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/RelativeController.java!! !(-0
+%0*hu.elte.koliCalc.repositories.RelativeRepo"__id*E*C1
+/hu.elte.koliCalc.controllers.RelativeController"
+relativeRepo¤¡
+t
+j/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/RelativeController.java!! !(7
+%1java.lang.Iterable"Porg.springframework.data.repository.CrudRepository#findAll()Ljava/lang/Iterable;*2
+0
+%0*hu.elte.koliCalc.repositories.RelativeRepo2	findAll()Ú
+×
+t
+j/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/RelativeController.java! !(8-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*+")
+'org.springframework.http.ResponseEntity*
+
+%1java.lang.Iterable"§
+t
+j/Users/tomfejer/Documents/CODE/kolicalc/src/main/java/hu/elte/koliCalc/controllers/RelativeController.java! !(9/
+-
+%2'org.springframework.http.ResponseEntityB31
+/hu.elte.koliCalc.controllers.RelativeController
