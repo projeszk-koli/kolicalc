@@ -18,25 +18,25 @@ public class KoliCalcApplicationTests {
     
 //Nem tudom kell-e ez még ide
 // Tesztelem a travis email kuldest
-/*
+
 	@Test
 	public void contextLoads() {
 	}
-*/  
-        public static void main(String[] args){
-            junit.textui.TestRunner.run(KoliCalcApplicationTests.suite());
-        }
+
+    public static void main(String[] args){
+        junit.textui.TestRunner.run(KoliCalcApplicationTests.suite());
+    }
+    
+    public static TestSuite suite(){
+        TestSuite suite = new TestSuite();
         
-        public static TestSuite suite(){
-            TestSuite suite = new TestSuite();
-            
-            suite.addTestSuite(FamilyInformationControllerTest.class);
-            suite.addTestSuite(PersonalInformationControllerTest.class);
-            suite.addTestSuite(RelativeControllerTest.class);
-            suite.addTestSuite(SportInformationControllerTest.class);
-            suite.addTestSuite(StudyInformationControllerTest.class);
-            suite.addTestSuite(UserControllerTest.class);
-            
-            return suite;
-        }
+        suite.addTestSuite(FamilyInformationControllerTest.class);
+        suite.addTestSuite(PersonalInformationControllerTest.class);
+        suite.addTestSuite(RelativeControllerTest.class);
+        suite.addTestSuite(SportInformationControllerTest.class);
+        suite.addTestSuite(StudyInformationControllerTest.class);
+        suite.addTestSuite(UserControllerTest.class);
+        
+        return suite;
+    }
 }
