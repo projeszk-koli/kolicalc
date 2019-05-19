@@ -76,13 +76,13 @@ export class AppComponent {
       egyForeJovedelem: new FormControl('', Validators.required),
       munkanelkuliTestver: new FormControl('', Validators.required),
       sajatGyermek: new FormControl('', Validators.required),
-      szuloktolKulon: new FormControl('', Validators.required),
-      szuloktolKulonHazas: new FormControl('', Validators.required),
-      arva: new FormControl('', Validators.required),
-      felarva: new FormControl('', Validators.required),
-      felarvaNevSzul: new FormControl('', Validators.required),
-      munkanelkuliEltarto: new FormControl('', Validators.required),
-      kozfoglEltarto: new FormControl('', Validators.required)
+      szuloktolKulon: new FormControl('', Validators.nullValidator),
+      szuloktolKulonHazas: new FormControl('', Validators.nullValidator),
+      arva: new FormControl('', Validators.nullValidator),
+      felarva: new FormControl('', Validators.nullValidator),
+      felarvaNevSzul: new FormControl('', Validators.nullValidator),
+      munkanelkuliEltarto: new FormControl('', Validators.nullValidator),
+      kozfoglEltarto: new FormControl('', Validators.nullValidator)
     });
   }
 
