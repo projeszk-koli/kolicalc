@@ -10,11 +10,11 @@ export class AppComponent {
 
   testverek: number[];
 
-  constructor(){
+  constructor() {
     this.testverek = new Array();
   }
 
-  testverHozzaadas(): void{
+  testverHozzaadas(): void {
     this.testverek.push(1);
   }
 
