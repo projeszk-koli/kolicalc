@@ -1,6 +1,7 @@
-language: java
+language: javascript
 before_install:
-- chmod +x mvnw
+  - cd frontend
+  - chmod +x mvnw
 notifications:
   email:
   - ftomi89@gmail.com

@@ -12,5 +12,6 @@ insert into user(neptun_code, psw) values ('elte12', '$2a$04$YDiv9c./ytEGZQopFfE
 insert into user(neptun_code, psw) values ('canvas', '$2a$04$YDiv9c./ytEGZQopFfExoOgGlJL6/o0er0K.hiGb5TGKHUL8Ebn..');
 insert into user(neptun_code, psw) values ('proj12', '$2a$04$YDiv9c./ytEGZQopFfExoOgGlJL6/o0er0K.hiGb5TGKHUL8Ebn..');
 insert into user(neptun_code, psw) values ('eszk34', '$2a$04$YDiv9c./ytEGZQopFfExoOgGlJL6/o0er0K.hiGb5TGKHUL8Ebn..');
+insert into user(neptun_code, psw) values ('user', '1234');
 
 insert into sport(OUTSTANDING_COMMUNITY_ACTIVITY, OUTSTANDING_SPORTS_ACHIEVEMENT, OUTSTANDING_STUDY_RESULT, USER_ID) values ('asd', 'asd', 'asd', 3);
